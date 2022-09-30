@@ -1,0 +1,36 @@
+
+p {
+    text-indent: 50px;
+  }
+.printformClass{
+  width:595px;
+  overflow: auto; 
+  background-image: url('../assets/theme2.jpg'); 
+  padding: 25px ;
+  word-wrap: break-word;
+ page-break-inside: avoid;
+ /* white-space: normal; */
+ page-break-after: always;
+ box-sizing: border-box;
+ /* position:absolute; */
+  /* top:0; left:0; */
+  /* z-index: -1; */
+  z-index: 4;
+  vertical-align: baseline;
+  row-gap: 80px;
+  /* hyphens: manual; */
+  /* height: 2400px; */
+  /* object-fit: contain;
+  float: right;
+  margin: 0 -25px 0 0; */
+}
+
+/* .modal-body{
+  word-wrap: break-word;
+}
+.row{
+  word-wrap: break-word;
+
+
+} */
+

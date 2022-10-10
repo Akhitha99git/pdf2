@@ -23,8 +23,11 @@
     "@progress/kendo-drawing": "^1.17.1",
     "@progress/kendo-file-saver": "^1.1.1",
     "@syncfusion/ej2-pdf-export": "^20.2.45",
+    "file-saver": "^2.0.5",
     "html2canvas": "^1.4.1",
     "jspdf": "^2.5.1",
+    "jszip": "^3.10.1",
+    "jszip-utils": "^0.1.0",
     "rxjs": "~6.6.0",
     "tslib": "^2.0.0",
     "zone.js": "~0.11.3"

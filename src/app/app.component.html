@@ -213,16 +213,37 @@
     <button type="button" class="btn btn-primary"    (click)="convertToPdf()">convert Pdf</button> &nbsp;
     <button type="button" class="btn btn-primary"    (click)="getPDF()">Multiple Pages Pdf</button> &nbsp;
     <!-- //by using kendo ui -->
+<!-- /    <hello name="{{ name }}"></hello>
+<p>
+  Start editing to see some magic happen :)
+</p> -->
      <button    type="button" class="k-button" (click)="onClick(drawMe)">Multiple Pages content</button> 
- 
+     <!-- <button (click)="download()">download</button> -->
+     <button (click)="download()">download</button>
   </div>   
 </div>
 
 </div>
+<!-- <button (click)="download()">download</button> -->
 
 
 
-
+<!-- //photos -->
+<div class="content-center">
+ 
+  <div class="card">
+    <i class="fa fa-file-zip-o fa-4x"></i>
+ 
+    <ol>
+      <li *ngFor="let url of urls">
+        {{url.split('/')[url.split('/').length - 1]}}
+      </li>
+    </ol>
+ 
+    <button (click)="downloadAsZip()">Download As Zip</button>
+  </div>
+ 
+</div>
 
 
 
